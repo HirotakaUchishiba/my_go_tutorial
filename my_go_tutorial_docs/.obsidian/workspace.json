@@ -1,0 +1,237 @@
+{
+  "main": {
+    "id": "db313e16842a0ab1",
+    "type": "split",
+    "children": [
+      {
+        "id": "46213a6a5bf4c134",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2a15a62fcf6b23a7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ドキュメントの目的と学習スタイル.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "ドキュメントの目的と学習スタイル"
+            }
+          },
+          {
+            "id": "afc32baca7db58e8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Document2 ドキュメントの目的と学習スタイル.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Document2 ドキュメントの目的と学習スタイル"
+            }
+          },
+          {
+            "id": "f45f7bc03fcbc947",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Document3 Web APIへの進化.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Document3 Web APIへの進化"
+            }
+          },
+          {
+            "id": "3ca76f7d704baead",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Document4 並行処理と信頼性の向上.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Document4 並行処理と信頼性の向上"
+            }
+          },
+          {
+            "id": "55944d38b74dc4e2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Document4 並行処理と信頼性の向上.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Document4 並行処理と信頼性の向上"
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "a268f03c56aba209",
+    "type": "split",
+    "children": [
+      {
+        "id": "98c793e3592ffe43",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2aa3ce8f45dd4818",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "ファイルエクスプローラ"
+            }
+          },
+          {
+            "id": "18b51c719d69dede",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "83c6ade101d458ee",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "5939d5e125adce57",
+    "type": "split",
+    "children": [
+      {
+        "id": "aece02649753aac4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "be5c20151e7800ec",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "コマンドラインツールの構築.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for コマンドラインツールの構築"
+            }
+          },
+          {
+            "id": "a6be050565087bd0",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "コマンドラインツールの構築.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from コマンドラインツールの構築"
+            }
+          },
+          {
+            "id": "c197c4eda3461af9",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "2d77c974c3ba5576",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "コマンドラインツールの構築.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of コマンドラインツールの構築"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:クイックスイッチャーを開く": false,
+      "graph:グラフビューを開く": false,
+      "canvas:新規キャンバスを作成": false,
+      "daily-notes:今日のデイリーノートを開く": false,
+      "templates:テンプレートを挿入": false,
+      "command-palette:コマンドパレットを開く": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "55944d38b74dc4e2",
+  "lastOpenFiles": [
+    "Document5 発展とプロジェクトのまとめ.md",
+    "Document4 並行処理と信頼性の向上.md",
+    "Document3 Web APIへの進化.md",
+    "Document2 ドキュメントの目的と学習スタイル.md",
+    "Document1 コマンドラインツールの構築.md"
+  ]
+}
