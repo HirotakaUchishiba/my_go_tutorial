@@ -2,8 +2,25 @@ package main
 
 import (
 	"fmt"
+	"math/rand"
 	"os"
 )
+
+type URL struct {
+	ShortURL string
+	LongURL  string
+}
+
+var urlMap = make(map[string]string)
+
+func genereteShortURL() string {
+	letters := []rune("abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789")
+	result := make([]rune, 6)
+	for i := range result {
+		result[i] = letters[rand.Intn(len(letters))]
+	}
+	return string(result)
+}
 
 func main() {
 	for {
@@ -17,7 +34,14 @@ func main() {
 
 		switch choice {
 		case "1":
+			// 1. ユーザーがLongURLを入力
+			fmt.Print("短縮したいURLを入力してください: ")
+			var longURL string
+			fmt.Scanln(&longURL)
 			fmt.Println("URLを短縮します")
+			shortURL := genereteShortURL()
+			urlMap[shortURL] = longURL
+			fmt.Println("短縮URL: ", shortURL)
 		case "2":
 			fmt.Println("URLを元に戻します")
 		case "3":
