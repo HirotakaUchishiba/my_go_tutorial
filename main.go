@@ -43,7 +43,11 @@ func main() {
 			urlMap[shortURL] = longURL
 			fmt.Println("短縮URL: ", shortURL)
 		case "2":
-			fmt.Println("URLを元に戻します")
+			fmt.Println("短縮URLを入力してください:")
+			var shortURL string
+			fmt.Scanln(&shortURL)
+			longURL := urlMap[shortURL]
+			fmt.Println("元のURL: ", longURL)
 		case "3":
 			{
 				fmt.Println("終了します")
