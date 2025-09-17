@@ -13,7 +13,7 @@ type URL struct {
 
 var urlMap = make(map[string]string)
 
-func genereteShortURL() string {
+func generateShortURL() string {
 	letters := []rune("abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789")
 	result := make([]rune, 6)
 	for i := range result {
@@ -39,7 +39,7 @@ func main() {
 			var longURL string
 			fmt.Scanln(&longURL)
 			fmt.Println("URLを短縮します")
-			shortURL := genereteShortURL()
+			shortURL := generateShortURL()
 			urlMap[shortURL] = longURL
 			fmt.Println("短縮URL: ", shortURL)
 		case "2":
